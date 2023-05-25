@@ -1,4 +1,4 @@
-# Neutralino + Vite + Vue + Typescript Template
+# NeutralinoV2 + Vite + Vue + Typescript Template
 A preconfigured, quick start template for making very [light and fast](https://github.com/Elanis/web-to-desktop-framework-comparison) desktop applications with the [Neutralinojs](https://neutralino.js.org/) framework. There's also:
 - [Vite](https://vitejs.dev/) - Code bundler for JavaScript related languages. It's known for it's lightning bundling speed, easy setup with any of the SPA frameworks and much more.
 
