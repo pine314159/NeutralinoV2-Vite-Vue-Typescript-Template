@@ -2,15 +2,13 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
-async function testApi() {
-  let displays = await Neutralino.computer.getDisplays();
-  for(let display of displays) {
-    console.log(display);
-  }
+
+async function testApi () {
+  let osInfo = await Neutralino.computer.getOSInfo();
+  console.log('os', osInfo);
 }
 
 testApi()
-
 </script>
 
 <template>
