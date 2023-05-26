@@ -5,6 +5,7 @@
     "author": "FeedTheMEe",
     "license": "MIT",
     "scripts": {
-        "serve:neu": "neu run --frontend-lib-dev -- --window-enable-inspector"
+        "serve:neu": "neu run --frontend-lib-dev -- --window-enable-inspector",
+        "setup": "cd scripts && sh setup.sh && cd .."
     }
 }
